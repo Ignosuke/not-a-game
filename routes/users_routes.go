@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/Ignosuke/not_a_game-api-rest/controllers"
+	"github.com/Ignosuke/not_a_game-api/controllers"
 	"github.com/gorilla/mux"
 )
 

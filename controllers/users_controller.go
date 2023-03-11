@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Ignosuke/not_a_game-api-rest/common"
-	"github.com/Ignosuke/not_a_game-api-rest/models"
+	"github.com/Ignosuke/not_a_game-api/common"
+	"github.com/Ignosuke/not_a_game-api/models"
 	"github.com/gorilla/mux"
 )
 

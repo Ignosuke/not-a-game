@@ -3,7 +3,7 @@ package common
 import (
 	"log"
 
-	"github.com/Ignosuke/not_a_game-api-rest/models"
+	"github.com/Ignosuke/not_a_game-api/models"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 )
@@ -19,6 +19,6 @@ func GetConnection() *gorm.DB {
 func Migrate() {
 	db := GetConnection()
 	defer db.Close()
-	log.Println("Migranting...")
+	log.Println("Migrating...")
 	db.AutoMigrate(&models.Users{})
 }

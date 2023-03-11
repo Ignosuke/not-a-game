@@ -1,4 +1,4 @@
-module github.com/Ignosuke/not_a_game-api-rest
+module github.com/Ignosuke/not_a_game-api
 
 go 1.20
 
